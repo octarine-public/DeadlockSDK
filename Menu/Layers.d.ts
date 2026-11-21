@@ -44,6 +44,12 @@ declare namespace MenuSDK {
 	 */
 	function Layers(): LayerSet
 	/**
+	 * Hands the keyboard focus back to the document of the menu window. An element keeps the focus a
+	 * click gave it after the menu closes, and while one has it the host holds every key back for the
+	 * UI. Only the menu window and its overlays take the focus: the other layers are `focus: none`.
+	 */
+	function ReleaseFocus(): void
+	/**
 	 * Keeps the layers marked alive: stamps them with `now` every 250 ms and, every 500 ms, closes
 	 * layers left behind with a stamp older than 1200 ms. `true` when one of this package's own
 	 * layers has gone missing; the menu then builds itself again. The menu calls it once a frame.

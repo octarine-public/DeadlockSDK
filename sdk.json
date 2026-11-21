@@ -1,0 +1,13 @@
+{
+	"schema": 1,
+	"game": "deadlock",
+	"dir": "DeadlockSDK",
+	"layers": {
+		"shared-sdk": "ab35235",
+		"source2-sdk": "4bd2d16",
+		"menu-sdk": "5435dfb",
+		"deadlock-sdk": "72eab4c"
+	},
+	"files": 642,
+	"treeHash": "sha256:f9f2d59bf19b464010a9e967efb9fb968c7f2386739b8e3c24f27a53a71078f3"
+}

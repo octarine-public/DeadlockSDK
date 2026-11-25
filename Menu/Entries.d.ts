@@ -1106,8 +1106,8 @@ declare namespace MenuSDK {
 		enabled: Map<string, boolean>
 		/**
 		 * Whether the config keeps the tiles' order, as a draggable row does, so a tile added later
-		 * takes the place the config kept for it. On when the selector was created with its defaults
-		 * as a non-empty list of pairs.
+		 * takes the place the config kept for it. On for a selector with dragging enabled or created
+		 * with its defaults as a non-empty list of pairs.
 		 */
 		ordered: boolean
 		/** Lets the user rearrange the grid by dragging tiles. */

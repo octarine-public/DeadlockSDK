@@ -1073,6 +1073,12 @@ declare namespace MenuSDK {
 		/** Turns the tile `value` on or off, as a click on it does. */
 		public SetEnabled(value: string, on: boolean): void
 		/**
+		 * Edits the given tile states and optionally moves the listed, already offered tiles to the
+		 * front in that order. Other states and the row's defaults are preserved. Listeners are
+		 * notified once if anything changed.
+		 */
+		public UpdateTiles(states: readonly (readonly [string, boolean])[], order?: readonly string[]): void
+		/**
 		 * Adds a tile after the selector was built, e.g. an ability the game only now revealed: with the
 		 * state and place the config kept for it, `enabled` at the end for a tile it has never seen.
 		 */

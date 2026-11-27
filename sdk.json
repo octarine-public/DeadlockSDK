@@ -5,9 +5,9 @@
 	"layers": {
 		"shared-sdk": "ab35235",
 		"source2-sdk": "4bd2d16",
-		"menu-sdk": "c02c4aa",
+		"menu-sdk": "d8cde3f",
 		"deadlock-sdk": "36d2b3d"
 	},
 	"files": 642,
-	"treeHash": "sha256:77c8161392aa7512e7242a8e89108aaf8befb9a86830f8c5e070a6f2f63fc619"
+	"treeHash": "sha256:3108bb6e764b70029a7963f46e41e4302e7ca0bfd83378ec41049a7b716ad126"
 }

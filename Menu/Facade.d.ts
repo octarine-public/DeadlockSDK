@@ -1065,6 +1065,15 @@ declare namespace MenuSDK {
 		 */
 		public get HiddenValues(): ReadonlySet<string>
 		public set HiddenValues(next: ReadonlySet<string>)
+		/**
+		 * The image path a tile is drawn from, by value, in the row and in the browse modal: for a
+		 * value whose tile should show something other than what the host resolves it to. A value it
+		 * does not name keeps the host's picture.
+		 * @example
+		 * guards.Pictures = new Map([["item_bottle", illusionBottlePath]])
+		 */
+		public get Pictures(): ReadonlyMap<string, string>
+		public set Pictures(next: ReadonlyMap<string, string>)
 		/** The selection as the config carries it. Same state as {@link enabledValues}. */
 		public get ConfigValue(): Map<string, boolean>
 		public set ConfigValue(next: Map<string, boolean> | [string, boolean][])

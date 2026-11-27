@@ -1136,6 +1136,12 @@ declare namespace MenuSDK {
 		 */
 		hidden?: ReadonlySet<string>
 		/**
+		 * The image path a tile is drawn from, by value, in the row and in the browse modal, for the
+		 * values that should not show what the host resolves them to. Changed through
+		 * {@link ImageSelector.Pictures}, which redraws the menu.
+		 */
+		pictures?: ReadonlyMap<string, string>
+		/**
 		 * The switch standing at the end of the row's title line, which runs what the tiles choose
 		 * for. It is hosted by the row and has none of its own.
 		 */
